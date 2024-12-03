@@ -73,7 +73,7 @@ def process_images(folder_path, output_csv):
                     print(f"Erro ao processar {filename}: {e}")
 
 # Uso do algoritmo
-folder_path = "MZ/Centro de Saude 17 de Setembro"
+folder_path = "MZ/Privado Bons Sinais"
 output_csv = "fotos_com_coordenadas.csv"
 process_images(folder_path, output_csv)
 
